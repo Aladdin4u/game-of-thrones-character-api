@@ -3,7 +3,7 @@ const cors = require('cors')
 const app = express()
 const PORT = 8000;
 
-app.set(cors())
+app.use(cors())
 
 const houses = [
   {
