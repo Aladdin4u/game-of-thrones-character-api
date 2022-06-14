@@ -3,8 +3,8 @@ A an api that shows Game of Thrones house character.
 
 **Link to project:** https://game-of-throne-api.herokuapp.com/
 
-![alt tag](img/gameofthroneshome.jpg)
-![alt tag](img/fetchdata.jpg)
+![alt tag](public/img/gameofthroneshome.jpg)
+![alt tag](public/img/fetchdata.jpg)
 
 ## How It's Made:
 
