@@ -1,0 +1,48 @@
+html {
+    background: url(img/gameofthrones.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+body{
+    color: white;
+}
+input, button {
+    border-radius: 4px;
+    padding: 8px;
+}
+input {
+    border: none;
+}
+button {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: none;
+  }
+  
+ul li {
+    padding: 8px 16px;
+    border-bottom: none;
+}
+  
+ul li:last-child {
+    border-bottom: none
+}
+
+li:nth-child(even){
+    background-color: rgba(65, 44, 1, 0.897);
+    border: none;
+}
+
+li:hover {
+    background-color: #ddd;
+    color: black;
+}
+span {
+    background-color: green;
+    color: white;
+}
