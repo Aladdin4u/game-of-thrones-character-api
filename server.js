@@ -38,6 +38,10 @@ app.get('/', (req, res) => {
     console.log('Homepage is running')
 })
 
+app.get('/api/houses', (req, res) => {
+    res.json(houses)
+})
+
 app.get('/api/houses/:name', (req, res) => {
     const name = req.params.name.toLowerCase()
     const house = houses.find(house => house.name === name)
