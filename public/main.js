@@ -4,7 +4,7 @@ async function apiRequest () {
     document.getElementById('characters').innerHTML="";
    try {
     const house = document.querySelector('input').value; 
-    const response = await fetch(`https://game-of-throne-api.herokuapp.com/api/houses/${house}`)
+    const response = await fetch(`https://gft.onrender.com/api/houses/${house}`)
     const data = await response.json()
 
     console.log(data)
